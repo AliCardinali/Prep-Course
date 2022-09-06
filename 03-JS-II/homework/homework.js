@@ -180,7 +180,7 @@ function tablaDelSeis(){
   for (let i = 0; i < 11; i++) {
     tablaDelSeis.push(6 * i)
   }
-  return tablaDelSeis;  
+  return tablaDelSeis 
   
 }
 
