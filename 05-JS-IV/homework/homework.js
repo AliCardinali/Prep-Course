@@ -6,10 +6,10 @@ function crearGato (nombre, edad) {
   // Agrega un método (funcion) llamado "meow" que devuelva el string "Meow!"
   // Devuelve el objeto
   // Tu código:
-  var crearGato= {
-    nombre=nombre,
-    edad = edad,
-    meou= function (){
+  crearGato= {
+    nombre: "nombre",
+    edad:"edad",
+    meou: function (){
       return "Meou";
     
     }
@@ -55,13 +55,12 @@ function nuevoUsuario (nombre, email, password) {
   // Crea un nuevo objeto con las propiedades coincidiendo con los argumentos que se pasan a la función
   // Devuelve el objeto
   // Tu código:
-  var nuevoUsuario = {
-    nombre="nombre",
-    email="mail",
-    password=password,
+  nuevoUsuario = 
+    nombre=nombre,
+    email=email,
+    password=password;
   }
-  return nuevoUsuario  
-
+  return nuevoUsuario;  
 }
 
 function tieneEmail (usuario) {
@@ -154,7 +153,7 @@ function agregarMetodoCalculoDescuento (producto) {
   return producto;
 
 }
-
+}
 // No modificar nada debajo de esta línea
 // --------------------------------
 
