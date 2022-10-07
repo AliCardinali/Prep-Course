@@ -7,7 +7,7 @@ function mayuscula(nombre) {
   let mayuscula = nombre[0].toUpperCase();
   let nombreEnMayuscula=nombre.replace (nombre[0], mayuscula);
   nombre=nombreEnMayuscula;
-  return nombre
+  return nombre;
 
 }
 
