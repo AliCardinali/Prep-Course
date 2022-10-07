@@ -1,20 +1,23 @@
-h1 {
+<stiles>
+
+   h1 {
   color: yellow;
 }
 
-img {
+   img {
   width: 400px;
 }
 
-#thirdDiv {
-  height: 500px;
-  width: 600px;
-  background-color: red;
-  padding: 500px;
-  border: 10px solid blue;
-}
+   #thirdDiv {
+   height: 500px;
+   width: 600px;
+   background-color: red;
+   padding: 500px;
+   border: 10px solid blue;
+   }
 
-#spanId {
-  font-size: 18px;
-  margin: 50px;
-}
+   #spanId {
+   font-size: 18px;
+   margin: 50px;
+  }
+<stiles/>
